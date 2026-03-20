@@ -13,7 +13,7 @@ Proyecto en Python para registrar y analizar hábitos diarios.
 Integrantes del grupo:
 - Emma Bergmann
 - Athina Lambert
-- Matilde Urrez
+- Matilde Urrestarazu
 - Maria Emilia Barbeito Armani
 
 El programa permite ingresar actividades diarias y genera un resumen
