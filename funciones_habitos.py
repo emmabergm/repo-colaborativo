@@ -10,18 +10,18 @@ def registrar_habitos():
         Lista con las actividades ingresadas por el usuario.
     """
 
-  
-       habitos= []
-       seguir="si"
-       
-       while seguir== "si":
-           actividad= input ("ingrese una actividad: ")
-           habitos.append(actividad)
-           
-           seguir= input ("¿deseas agregar otra actividad? (si/no)")
-       
-       return habitos 
-       
+    actividades = []
+
+    while True:
+        actividad = input("Ingrese una actividad: ")
+        actividades.append(actividad)
+
+        seguir = input("¿Desea agregar otra actividad? (s/n): ")
+
+        if seguir == "n":
+            break
+
+    return actividades
 
 def analizar_habitos(lista):
     """
